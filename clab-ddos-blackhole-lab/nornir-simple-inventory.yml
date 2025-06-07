@@ -1,0 +1,66 @@
+---
+A1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.5
+CE1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.14
+PE1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.13
+PE2:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.10
+PE3:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.3
+PE4:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.6
+RR:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.12
+attacker1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.8
+server:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.2
+sflowrt:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.4
+switch1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.9
+switch2:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.11
+victim1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.100.100.7
