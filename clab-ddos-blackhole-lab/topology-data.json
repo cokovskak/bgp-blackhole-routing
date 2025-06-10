@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab_mgmt",
-        "bridge": "br-320de936273d",
+        "bridge": "br-ee9783649b77",
         "ipv4-subnet": "172.100.100.0/24",
         "ipv4-gw": "172.100.100.1",
         "mtu": 1500,
@@ -22,26 +22,26 @@
       "longname": "clab-ddos-blackhole-lab-A1",
       "fqdn": "A1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/A1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/A1",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.5",
+      "mgmt-ipv4-address": "172.100.100.14",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/A1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/A1",
         "clab-node-longname": "clab-ddos-blackhole-lab-A1",
         "clab-node-name": "A1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -53,26 +53,26 @@
       "longname": "clab-ddos-blackhole-lab-CE1",
       "fqdn": "CE1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/CE1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/CE1",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.14",
+      "mgmt-ipv4-address": "172.100.100.13",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/CE1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/CE1",
         "clab-node-longname": "clab-ddos-blackhole-lab-CE1",
         "clab-node-name": "CE1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -84,26 +84,26 @@
       "longname": "clab-ddos-blackhole-lab-PE1",
       "fqdn": "PE1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE1",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.13",
+      "mgmt-ipv4-address": "172.100.100.8",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE1",
         "clab-node-longname": "clab-ddos-blackhole-lab-PE1",
         "clab-node-name": "PE1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -115,26 +115,26 @@
       "longname": "clab-ddos-blackhole-lab-PE2",
       "fqdn": "PE2.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE2",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE2",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.10",
+      "mgmt-ipv4-address": "172.100.100.12",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE2",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE2",
         "clab-node-longname": "clab-ddos-blackhole-lab-PE2",
         "clab-node-name": "PE2",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -146,26 +146,26 @@
       "longname": "clab-ddos-blackhole-lab-PE3",
       "fqdn": "PE3.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE3",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE3",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.3",
+      "mgmt-ipv4-address": "172.100.100.9",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE3",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE3",
         "clab-node-longname": "clab-ddos-blackhole-lab-PE3",
         "clab-node-name": "PE3",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -177,26 +177,26 @@
       "longname": "clab-ddos-blackhole-lab-PE4",
       "fqdn": "PE4.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE4",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE4",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.6",
+      "mgmt-ipv4-address": "172.100.100.11",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/PE4",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/PE4",
         "clab-node-longname": "clab-ddos-blackhole-lab-PE4",
         "clab-node-name": "PE4",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -208,26 +208,26 @@
       "longname": "clab-ddos-blackhole-lab-RR",
       "fqdn": "RR.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/RR",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/RR",
       "kind": "linux",
       "image": "frrouting/frr:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.12",
+      "mgmt-ipv4-address": "172.100.100.6",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/RR",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/RR",
         "clab-node-longname": "clab-ddos-blackhole-lab-RR",
         "clab-node-name": "RR",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -239,26 +239,26 @@
       "longname": "clab-ddos-blackhole-lab-attacker1",
       "fqdn": "attacker1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/attacker1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/attacker1",
       "kind": "linux",
       "image": "sflow/clab-iperf3",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.8",
+      "mgmt-ipv4-address": "172.100.100.2",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/attacker1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/attacker1",
         "clab-node-longname": "clab-ddos-blackhole-lab-attacker1",
         "clab-node-name": "attacker1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -270,26 +270,26 @@
       "longname": "clab-ddos-blackhole-lab-server",
       "fqdn": "server.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/server",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/server",
       "kind": "linux",
       "image": "alpine:latest",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.2",
+      "mgmt-ipv4-address": "172.100.100.5",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/server",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/server",
         "clab-node-longname": "clab-ddos-blackhole-lab-server",
         "clab-node-name": "server",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -301,26 +301,26 @@
       "longname": "clab-ddos-blackhole-lab-sflowrt",
       "fqdn": "sflowrt.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/sflowrt",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/sflowrt",
       "kind": "linux",
       "image": "sflow/ddos-protect",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.4",
+      "mgmt-ipv4-address": "172.100.100.3",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/sflowrt",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/sflowrt",
         "clab-node-longname": "clab-ddos-blackhole-lab-sflowrt",
         "clab-node-name": "sflowrt",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -344,26 +344,26 @@
       "longname": "clab-ddos-blackhole-lab-switch1",
       "fqdn": "switch1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/switch1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/switch1",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.9",
+      "mgmt-ipv4-address": "172.100.100.7",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/switch1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/switch1",
         "clab-node-longname": "clab-ddos-blackhole-lab-switch1",
         "clab-node-name": "switch1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -375,26 +375,26 @@
       "longname": "clab-ddos-blackhole-lab-switch2",
       "fqdn": "switch2.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/switch2",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/switch2",
       "kind": "linux",
       "image": "frrouting/frr",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.11",
+      "mgmt-ipv4-address": "172.100.100.4",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/switch2",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/switch2",
         "clab-node-longname": "clab-ddos-blackhole-lab-switch2",
         "clab-node-name": "switch2",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -406,26 +406,26 @@
       "longname": "clab-ddos-blackhole-lab-victim1",
       "fqdn": "victim1.ddos-blackhole-lab.io",
       "group": "",
-      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/victim1",
+      "labdir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/victim1",
       "kind": "linux",
       "image": "sflow/clab-iperf3",
       "mgmt-net": "",
       "mgmt-intf": "",
-      "mgmt-ipv4-address": "172.100.100.7",
+      "mgmt-ipv4-address": "172.100.100.10",
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-320de936273d",
+        "clab-mgmt-net-bridge": "br-ee9783649b77",
         "clab-node-group": "",
         "clab-node-kind": "linux",
-        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/clab-ddos-blackhole-lab/victim1",
+        "clab-node-lab-dir": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/clab-ddos-blackhole-lab/victim1",
         "clab-node-longname": "clab-ddos-blackhole-lab-victim1",
         "clab-node-name": "victim1",
         "clab-node-type": "",
         "clab-owner": "kristina",
-        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/test3/ddos-blackhole.yaml",
+        "clab-topo-file": "/home/kristina/Desktop/FINKI/diplomska/primeri/bgp-blackhole-routing/ddos-blackhole.yaml",
         "containerlab": "ddos-blackhole-lab"
       },
       "port-bindings": [
@@ -437,13 +437,13 @@
       "a": {
         "node": "attacker1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:16:d8:42",
+        "mac": "aa:c1:ab:a4:29:47",
         "peer": "z"
       },
       "z": {
         "node": "switch1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:02:49:d8",
+        "mac": "aa:c1:ab:71:eb:45",
         "peer": "a"
       }
     },
@@ -451,13 +451,13 @@
       "a": {
         "node": "switch1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:f4:5a:63",
+        "mac": "aa:c1:ab:ea:3b:79",
         "peer": "z"
       },
       "z": {
         "node": "A1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:72:0a:e6",
+        "mac": "aa:c1:ab:95:bd:11",
         "peer": "a"
       }
     },
@@ -465,13 +465,13 @@
       "a": {
         "node": "A1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:58:15:3a",
+        "mac": "aa:c1:ab:43:6b:ff",
         "peer": "z"
       },
       "z": {
         "node": "PE1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:19:d4:23",
+        "mac": "aa:c1:ab:4b:62:89",
         "peer": "a"
       }
     },
@@ -479,13 +479,13 @@
       "a": {
         "node": "PE1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:d2:4d:f6",
+        "mac": "aa:c1:ab:fd:fd:e4",
         "peer": "z"
       },
       "z": {
         "node": "PE2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:6c:05:1e",
+        "mac": "aa:c1:ab:40:d9:3a",
         "peer": "a"
       }
     },
@@ -493,13 +493,13 @@
       "a": {
         "node": "PE2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:8e:13:74",
+        "mac": "aa:c1:ab:ec:53:6c",
         "peer": "z"
       },
       "z": {
         "node": "RR",
         "interface": "eth1",
-        "mac": "aa:c1:ab:81:14:bd",
+        "mac": "aa:c1:ab:f9:27:86",
         "peer": "a"
       }
     },
@@ -507,13 +507,13 @@
       "a": {
         "node": "PE3",
         "interface": "eth1",
-        "mac": "aa:c1:ab:90:5d:e9",
+        "mac": "aa:c1:ab:47:67:28",
         "peer": "z"
       },
       "z": {
         "node": "RR",
         "interface": "eth2",
-        "mac": "aa:c1:ab:eb:1f:0f",
+        "mac": "aa:c1:ab:51:2d:24",
         "peer": "a"
       }
     },
@@ -521,13 +521,13 @@
       "a": {
         "node": "PE4",
         "interface": "eth1",
-        "mac": "aa:c1:ab:ac:bd:39",
+        "mac": "aa:c1:ab:57:b2:61",
         "peer": "z"
       },
       "z": {
         "node": "RR",
         "interface": "eth4",
-        "mac": "aa:c1:ab:d0:92:41",
+        "mac": "aa:c1:ab:57:05:a9",
         "peer": "a"
       }
     },
@@ -535,13 +535,13 @@
       "a": {
         "node": "PE4",
         "interface": "eth2",
-        "mac": "aa:c1:ab:37:95:63",
+        "mac": "aa:c1:ab:83:c6:40",
         "peer": "z"
       },
       "z": {
         "node": "CE1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:30:43:1c",
+        "mac": "aa:c1:ab:de:e9:78",
         "peer": "a"
       }
     },
@@ -549,13 +549,13 @@
       "a": {
         "node": "CE1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:72:71:d8",
+        "mac": "aa:c1:ab:a4:52:03",
         "peer": "z"
       },
       "z": {
         "node": "switch2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:af:88:b6",
+        "mac": "aa:c1:ab:55:c8:5d",
         "peer": "a"
       }
     },
@@ -563,13 +563,13 @@
       "a": {
         "node": "switch2",
         "interface": "eth2",
-        "mac": "aa:c1:ab:e8:dc:a1",
+        "mac": "aa:c1:ab:25:f1:c4",
         "peer": "z"
       },
       "z": {
         "node": "victim1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:4b:aa:e2",
+        "mac": "aa:c1:ab:d8:60:db",
         "peer": "a"
       }
     },
@@ -577,13 +577,13 @@
       "a": {
         "node": "RR",
         "interface": "eth3",
-        "mac": "aa:c1:ab:8e:ee:f4",
+        "mac": "aa:c1:ab:87:4f:e2",
         "peer": "z"
       },
       "z": {
         "node": "sflowrt",
         "interface": "eth1",
-        "mac": "aa:c1:ab:24:36:c1",
+        "mac": "aa:c1:ab:22:d1:97",
         "peer": "a"
       }
     }

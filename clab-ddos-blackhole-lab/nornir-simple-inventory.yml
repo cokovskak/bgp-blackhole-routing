@@ -3,64 +3,64 @@ A1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.5
+    hostname: 172.100.100.14
 CE1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.14
+    hostname: 172.100.100.13
 PE1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.13
+    hostname: 172.100.100.8
 PE2:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.10
+    hostname: 172.100.100.12
 PE3:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.3
+    hostname: 172.100.100.9
 PE4:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.6
+    hostname: 172.100.100.11
 RR:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.12
+    hostname: 172.100.100.6
 attacker1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.8
+    hostname: 172.100.100.2
 server:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.2
+    hostname: 172.100.100.5
 sflowrt:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.4
+    hostname: 172.100.100.3
 switch1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.9
+    hostname: 172.100.100.7
 switch2:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.11
+    hostname: 172.100.100.4
 victim1:
     username: 
     password: 
     platform: linux
-    hostname: 172.100.100.7
+    hostname: 172.100.100.10
