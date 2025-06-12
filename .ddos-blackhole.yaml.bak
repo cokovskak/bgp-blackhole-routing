@@ -71,20 +71,13 @@ topology:
         - ./configs/PE2/daemons:/etc/frr/daemons
         - ./configs/PE2/frr.conf:/etc/frr/frr.conf
 
-    PE3:
-      kind: linux
-      image: frrouting/frr:latest
-      binds:
-        - ./configs/PE3/daemons:/etc/frr/daemons
-        - ./configs/PE3/frr.conf:/etc/frr/frr.conf
-
     PE4:
       kind: linux
       image: frrouting/frr:latest
       binds:
         - ./configs/PE4/daemons:/etc/frr/daemons
         - ./configs/PE4/frr.conf:/etc/frr/frr.conf
-#route-reflector
+
     RR:
       kind: linux
       image: frrouting/frr:latest
@@ -102,6 +95,11 @@ topology:
     sflowrt:
       kind: linux
       image: sflow/ddos-protect
+      exec:
+      - ip addr add 10.66.3.2/30 dev eth1
+      - ip link set eth1 up
+      - ip route del default
+      - ip route add default via 10.66.3.1
 
   links:
     - endpoints: [attacker1:eth1, switch1:eth1]
@@ -114,8 +112,6 @@ topology:
       mtu: 1500
     - endpoints: [PE2:eth1, RR:eth1]
       mtu: 1500
-    - endpoints: [PE3:eth1, RR:eth2]
-      mtu: 1500
     - endpoints: [PE4:eth1, RR:eth4]
       mtu: 1500
     - endpoints: [PE4:eth2, CE1:eth2]
@@ -124,7 +120,5 @@ topology:
       mtu: 1500
     - endpoints: [switch2:eth2, victim1:eth1]
       mtu: 1500
-    # - endpoints: [switch2:eth3, server:eth1]
-    #   mtu: 1500
     - endpoints: [RR:eth3, sflowrt:eth1]
       mtu: 1500
